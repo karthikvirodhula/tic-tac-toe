@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-top: 5%;
+    text-align: center;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+
+.game-window{
+    /* background-color: red; */
+    display: inline-block;
+    height:70vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap: 1.5vmin;
+}
+
+.game {
+    padding: 2em;
+    height:60vmin;
+     width: 60vmin;
+     display:flex;
+     flex-wrap: wrap;
+     justify-content:center;
+     align-items:center;
+     gap: 1.5vmin;
+     background-color: transparent; 
+     border-radius: 2em;
+     box-shadow: 0 3px 15px rgba(255,255,255,0.5 );
+     /* box-shadow: 0 0 1rem rgb(0, 0, 0,0.5) ; */
+}
+
+
+.grid {
+    color: white;
+    background: transparent;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1em;
+    border: none;
+    box-shadow: 0 0 1rem rgba(255,255,255,0.5 );
+    font-size: 8vmin;
+}
+
+.reset-button 
+{
+    background-color: transparent;
+    padding:1rem;
+    font-size: 1.25rem;
+    border: 1px solid white;
+    box-shadow: 0 0 1rem rgb(255, 255, 255,1) ;
+    color: white;
+    border-radius: 2em;
+    margin-top: 2%;
+}
+
+
+.newgame-button 
+{
+    
+    padding:1rem;
+    font-size: 1.25rem;
+    border: 1px solid white;
+    box-shadow: 0 0 1rem rgb(255, 255, 255,1) ;
+    color: white;
+    border-radius: 2em;
+    background-color: transparent;
+}
+
+
+.result{
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 1.8em;
+   
+}
+.result-div
+{
+    margin-bottom: 2%;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-shadow: 0 0 1rem rgb(255, 255, 255,0.5) ;
+    padding: 3em;
+    border-radius: 20px;
+}
+
+.hide{
+    display: none;
+}
+
+.theme{
+
+    display: flex;
+    position: relative;
+    left: 80%;
+    padding:1rem;
+    font-size: 1.25rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(255, 255, 255,0.4) ;
+    border-radius: 2em;
+
+}
+
+.glowgreen{
+    box-shadow: 0 0 1rem rgb(62, 183, 100,0.9) ;
+}
+.glowred{
+    box-shadow: 0 0 1rem rgb(255, 0, 0,0.9) ;
+} 
+
+
+
+
+/* dark mode */
+
+    .body_dark{
+        background: linear-gradient(315deg, rgba(2,0,36,1) 0%, rgba(2,2,18,1) 16%, rgba(52,4,28,1) 100%);
+   }
+   .gameDark{
+    box-shadow: 0 3px 15px rgba(255,255,255,0.9 );
+    }
+    .gridDark{
+        box-shadow: 0 0 1rem rgba(255,255,255,0.5 );
+        color: white;
+    }
+    .restButtonDark
+    {
+        box-shadow: 0 0 1rem rgba(255,255,255,0.5 );
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+    }
+    .newgame-buttonDark
+    {
+        background-color: transparent;
+        color: white;
+        box-shadow: 0 0 1rem rgb(255, 255, 255,1) ;
+        border: 1px solid white;
+    }
+    
+    .themeDark{
+        box-shadow: 0 0 1rem rgb(255, 255, 255,1) ;
+        background-color: black;
+        color: white;
+    }
+    .result-divDark{
+        box-shadow: 0 0 1rem rgb(255, 255, 255,1) ;
+        background: linear-gradient(315deg, rgba(2,0,36,1) 0%, rgba(2,2,18,1) 16%, rgba(52,4,28,1) 100%);
+        color: white;
+    }
+
+    .Darkresult{
+        color: white;
+    }
